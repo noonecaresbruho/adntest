@@ -1,0 +1,18 @@
+{
+  "id": "org.animesdigital.stremio.addon",
+  "version": "1.0.0",
+  "name": "AnimesDigital Addon",
+  "description": "Streams automáticos do site animesdigital.org para StreamFin",
+  "logo": "https://strem.io",
+  "background": "https://strem.io",
+  "resources": ["stream", "catalog"],
+  "types": ["movie", "series"],
+  "catalogs": [
+    {
+      "type": "series",
+      "id": "animesdigital_populares",
+      "name": "Populares (AnimesDigital)"
+    }
+  ],
+  "idPrefixes": ["tt", "tmdb", "ad_"]
+}
