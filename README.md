@@ -1,0 +1,2 @@
+# adntest
+tsting btw manajaro
